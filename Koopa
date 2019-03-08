@@ -1,0 +1,18 @@
+print("BACKGROUND INFO, This is a python chaterbot with the name of koopa we will be running some tests to see how koopa can help you with some short and basic coding you should be aware of according to the rotations")
+print("Hello my name is koopa what's yours")
+print("Enter your name: ")
+Name = input()
+print("Well nice to meet you ", Name )
+print("I will have you try some coding exercises with me")
+print("Now let's start")
+print("How do you summon a turtle?")
+summoning_answer = input('Give example of how to summon it: ')
+while summoning_answer !="import turtle":
+  print("try again, that was close(don't overthink it)")
+  summoning_answer = input('Give example of how to summon it: ')
+print("Okay good job, the correct answer was(import turtle) ")
+naming_it = input("Now whats the next step: ")
+if naming_it != "naming the turtle":
+  print("you have one more attempt then I'll reveal the answer")
+  naming_it = input("Now whats the next step: ")
+print("The correct answare naming the turtle EX: chad = turtle.Turtle() ")
